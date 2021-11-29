@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+.background{
+  background-image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Freact-js&psig=AOvVaw3014W5EncBU8KAwR6jJ4EJ&ust=1638279058351000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKj7-p7XvfQCFQAAAAAdAAAAABAD";
+  background-repeat: no-repeat;
+}
+
+.myNavBar{
+  background-color: #1a263d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1% 2%;
+}
+
+.MyHeader{
+  display: flex;
+  flex-direction: column;
+  background-color: #1a263d;
+  color: white;
+  padding: 0 5% 0 5%
+}
+
+.header-para{
+  font-size: 1.5rem;
+}
+
+.awesome-btn{
+  border: 1px solid white ;
+  width: 8rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #1a263d;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 2% 2%;
+  margin: 4% 0 8% 0;
+}
+
+.firstSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 2;
+  padding: 10% 6% 0 6%;
+  margin-bottom: 5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
